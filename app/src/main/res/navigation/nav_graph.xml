@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/people_fragment">
+
+    <fragment android:id="@+id/people_fragment"
+        android:name="com.brormoul.app.view.fragment.PeopleFragment"
+        android:label="People"
+        tools:layout="@layout/fragment_people">
+
+        <argument android:name="userId"
+            app:argType="integer"
+            android:defaultValue="1"
+            />
+
+        <action
+            android:id="@+id/action_people_dest_to_musicFragment"
+            app:destination="@id/music_fragment" />
+        <action
+            android:id="@+id/action_people_dest_to_settingFragment"
+            app:destination="@id/setting_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/music_fragment"
+        android:name="com.brormoul.app.view.fragment.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/setting_fragment"
+        android:name="com.brormoul.app.view.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_setting_fragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.brormoul.app.view.fragment.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.brormoul.app.view.fragment.DetailFragment"
+        android:label="DetailFragment" />
+
+</navigation>

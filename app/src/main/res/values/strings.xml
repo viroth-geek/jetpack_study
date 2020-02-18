@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BrorMoul</string>
+    <string name="Hello">Hello</string>
+    <string name="Viroth">Simple Name</string>
+    <string name="age">10 years</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="dropdown">dropdown</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="music">Music</string>
+    <string name="people">People</string>
+    <string name="setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

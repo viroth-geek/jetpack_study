@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.brormoul.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:8:5-24:19
+14        android:allowBackup="true"
+14-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.2.0] /Users/virothty/.gradle/caches/transforms-2/files-2.1/d9900d6ea78d003b12d2a556064b4e7e/core-1.2.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:15:9-44
+24        <activity android:name="com.brormoul.app.view.activity.MainActivity" >
+24-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:17:9-22:20
+24-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:17:19-61
+25            <intent-filter>
+25-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:18:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:19:17-69
+26-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:19:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:20:17-77
+28-->/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/virothty/.gradle/caches/transforms-2/files-2.1/50ce29e85542cece341a13cba201811e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+33            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+33-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/virothty/.gradle/caches/transforms-2/files-2.1/50ce29e85542cece341a13cba201811e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+34            android:authorities="com.brormoul.app.lifecycle-process"
+34-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/virothty/.gradle/caches/transforms-2/files-2.1/50ce29e85542cece341a13cba201811e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+35            android:exported="false"
+35-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/virothty/.gradle/caches/transforms-2/files-2.1/50ce29e85542cece341a13cba201811e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+36            android:multiprocess="true" />
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/virothty/.gradle/caches/transforms-2/files-2.1/50ce29e85542cece341a13cba201811e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+37    </application>
+38
+39</manifest>

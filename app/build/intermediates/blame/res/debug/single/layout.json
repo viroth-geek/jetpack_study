@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_people.xml",
+        "source": "/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/res/layout/fragment_people.xml"
+    },
+    {
+        "merged": "/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/people_item_view.xml",
+        "source": "/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/res/layout/people_item_view.xml"
+    },
+    {
+        "merged": "/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_detail.xml",
+        "source": "/Users/virothty/Documents/Android Project/Google code lab/ProrMoul/app/src/main/res/layout/fragment_detail.xml"
+    }
+]
